@@ -71,6 +71,3 @@ class TestAhoCorasick(unittest.TestCase):
         result = search_text(text, keywords)
         expected = {"a": list(range(1000000)), "b": [1000000]}
         self.assertEqual(result, expected)
-
-if __name__ == "__main__":
-    unittest.main()
